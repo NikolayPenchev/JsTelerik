@@ -17,12 +17,12 @@ arr.sort(sortArr);
 console.log(arr);
 
 if(x===arr[middle]){
-    console.log('We found x which is index'+middle+'of the arr');
+    console.log('We found x which index is '+middle+' from the arr');
 }
 if(x>arr[middle]){
     for(var i = middle; i<arr.length;i++){
         if(x === arr[i]){
-            console.log('We found x which is equal to '+ i+' index of the arr');
+            console.log('We found x which is equal to '+ i+' index from the arr');
             isFound=true;
         }
     }
@@ -30,7 +30,7 @@ if(x>arr[middle]){
 if(x<arr[middle]){
     for(var i = middle; i>=0;i--){
         if(x === arr[i]){
-            console.log('We found x which is equal to '+ i+' index of the arr');
+            console.log('We found x which is equal to '+ i+' index from the arr');
             isFound=true;
         }
     }
