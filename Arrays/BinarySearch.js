@@ -17,7 +17,7 @@ arr.sort(sortArr);
 console.log(arr);
 
 if(x===arr[middle]){
-    console.log('We found x which is index'+(middle)+'of the arr');
+    console.log('We found x which is index'+middle+'of the arr');
 }
 if(x>arr[middle]){
     for(var i = middle; i<arr.length;i++){
