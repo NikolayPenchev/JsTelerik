@@ -5,7 +5,7 @@
 //
 //Write a script that finds the index of given element in a sorted array of integers by using the binary search algorithm.
 var arr = [2,5,6,-1,34,23,12,4,7,0,44];
-var x = 8;
+var x = 8;//enter number which you want to search in the array
 var middle = Math.floor(arr.length/2);
 var isFound = false;
 
