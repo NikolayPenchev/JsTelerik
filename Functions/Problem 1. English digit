@@ -1,0 +1,23 @@
+//Problem 1. English digit
+//
+//Write a function that returns the last digit of given integer as an English word.
+function digitToWord(num){
+    var firstNum = num%10;
+    switch (firstNum){
+        case 0: firstNum = 'zero';break;
+        case 1: firstNum = 'one';break;
+        case 2: firstNum = 'two';break;
+        case 3: firstNum = 'three';break;
+        case 4: firstNum = 'four';break;
+        case 5: firstNum = 'five';break;
+        case 6: firstNum = 'six';break;
+        case 7: firstNum = 'seven';break;
+        case 8: firstNum = 'eight';break;
+        case 9: firstNum = 'nine';break;
+        default : firstNum = NaN;
+    }
+    console.log(firstNum);
+}
+digitToWord(512);
+digitToWord(1024);
+digitToWord(12309);
